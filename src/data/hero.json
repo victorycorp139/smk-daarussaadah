@@ -21,6 +21,12 @@
       "subtitle": "Pelajari skill industri yang relevan dan siap kerja sejak bangku sekolah",
       "title": "Teknologi & Bisnis untuk Masa Depan",
       "cta_text": "Lihat Program"
+    },
+    {
+      "bg_overlay": "medium",
+      "badge": "Test Page",
+      "title": "Test page",
+      "subtitle": "Test page"
     }
   ]
 }

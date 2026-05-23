@@ -4,6 +4,7 @@ import HeroBanner from "../components/HeroBanner.astro";
 import { getCollection } from "astro:content";
 import heroData from "../data/hero.json";
 import homepageData from "../data/homepage.json";
+import tentangData from "../data/tentang.json";
 
 const posts = await getCollection("berita");
 
@@ -61,15 +62,17 @@ const latestPosts = posts
   <section class="py-20">
     <div class="max-w-6xl mx-auto px-6 grid md:grid-cols-2 gap-10 items-center">
       <div>
-        <h2 class="text-3xl font-bold mb-4">{homepageData.about_title}</h2>
-        <p class="leading-relaxed">{homepageData.about_text}</p>
+        <h2 class="text-3xl font-bold mb-4">{tentangData.judul}</h2>
+        <p class="leading-relaxed">{tentangData.deskripsi}</p>
       </div>
       <div>
-        <img
-          src={homepageData.school_image}
-          alt="SMK Daarussaadah Pasar Kemis Kota Tangerang"
-          class="rounded-xl shadow"
-        />
+        {tentangData.gambar && (
+          <img
+            src={tentangData.gambar}
+            alt="SMK Daarussaadah"
+            class="rounded-xl shadow w-full"
+          />
+        )}
       </div>
     </div>
   </section>

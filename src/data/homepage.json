@@ -1,5 +1,4 @@
 {
-  "about_title": "Tentang Sekolah",
   "programs_title": "Program Unggulan",
   "ppdb_wa": "6285312261634",
   "programs": [
@@ -8,9 +7,7 @@
       "description": "Membekali peserta didik dengan kompetensi di bidang jaringan komputer, server, cloud, keamanan jaringan, dan IT support sesuai standar industri."
     }
   ],
-  "school_image": "",
   "ppdb_title": "Penerimaan Peserta Didik Baru",
   "ppdb_subtitle": "Segera daftarkan putra-putri Anda.",
-  "ppdb_button_text": "Hubungi Panitia PPDB",
-  "about_text": "SMK Daarrussaadah Kota Tangerang adalah sekolah vokasi yang berkomitmen pada pengembangan akademik, karakter, dan keterampilan berbasis industri."
+  "ppdb_button_text": "Hubungi Panitia PPDB"
 }

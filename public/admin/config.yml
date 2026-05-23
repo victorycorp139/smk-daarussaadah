@@ -64,14 +64,20 @@ collections:
     label: Halaman
     files:
 
+      - name: tentang
+        label: Tentang Sekolah (Halaman Utama)
+        file: src/data/tentang.json
+        format: json
+        fields:
+          - { name: judul, label: Judul Section, widget: string }
+          - { name: deskripsi, label: Deskripsi Sekolah, widget: text }
+          - { name: gambar, label: Foto Gedung/Sekolah, widget: image, required: false }
+
       - name: beranda
-        label: Halaman Beranda
+        label: Beranda – Program & PPDB
         file: src/data/homepage.json
         format: json
         fields:
-          - { name: about_title, label: Judul Tentang Sekolah, widget: string }
-          - { name: about_text, label: Teks Tentang Sekolah, widget: text }
-          - { name: school_image, label: Foto Gedung/Sekolah, widget: image, required: false }
           - { name: programs_title, label: Judul Program Unggulan, widget: string }
           - name: programs
             label: Program Unggulan

@@ -2,7 +2,7 @@
   "slides": [
     {
       "cta_url": "/ppdb",
-      "bg_image": "/uploads/brosur-smk-2026.png",
+      "bg_image": "/uploads/wallpaper-smk.jpg",
       "badge": "PPDB 2025/2026 · Pendaftaran Dibuka",
       "cta2_text": "Tentang Sekolah",
       "cta2_url": "/profil",
@@ -13,7 +13,7 @@
     },
     {
       "cta_url": "/#program",
-      "bg_image": "/uploads/img_4974.jpg",
+      "bg_image": "/uploads/whatsapp-image-2026-05-19-at-09.38.18.jpeg",
       "badge": "Program Unggulan",
       "cta2_text": "",
       "cta2_url": "",
@@ -26,7 +26,8 @@
       "bg_overlay": "medium",
       "badge": "Test Page",
       "title": "Test page",
-      "subtitle": "Test page"
+      "subtitle": "Test page",
+      "bg_image": "/uploads/whatsapp-image-2023-02-08-at-15.16.47.jpeg"
     },
     {
       "bg_overlay": "medium",

@@ -2,7 +2,7 @@
   "slides": [
     {
       "cta_url": "/ppdb",
-      "bg_image": "/uploads/img_2248.jpg",
+      "bg_image": "/uploads/brosur-smk-2026.png",
       "badge": "PPDB 2025/2026 · Pendaftaran Dibuka",
       "cta2_text": "Tentang Sekolah",
       "cta2_url": "/profil",
@@ -27,6 +27,10 @@
       "badge": "Test Page",
       "title": "Test page",
       "subtitle": "Test page"
+    },
+    {
+      "bg_overlay": "medium",
+      "title": "SPMB 2026 SEKOLAH GRATIS"
     }
   ]
 }
